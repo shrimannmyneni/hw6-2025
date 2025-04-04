@@ -65,7 +65,7 @@ pauseButton.addEventListener("click", function (){
 // });
 const slowerButton = document.getElementById('slower');
 slowerButton.addEventListener('click', function () {
-    video.playbackRate /= 1.2;
+    video.playbackRate /= 1.1;
     console.log(`New speed: ${video.playbackRate}`);
 });
 
@@ -74,7 +74,7 @@ slowerButton.addEventListener('click', function () {
 //           you should be within 5 digits of 100% again.
 const fasterButton = document.getElementById('faster');
 fasterButton.addEventListener('click', function () {
-    video.playbackRate *= 1.2;
+    video.playbackRate *= 1.1;
     console.log(`New speed: ${video.playbackRate}`);
 });
 
